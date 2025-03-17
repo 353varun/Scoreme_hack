@@ -11,10 +11,10 @@ This project extracts **tables** from PDF documents and converts them into struc
 
 ---
 📌 Approach
-Extracting Text: The script uses PyPDF2 to extract text from the PDF file, ensuring all content is retrieved accurately.
-Processing with LLM: The extracted text is sent to a Large Language Model (LLM) via the Groq API, providing context for structured extraction.
-Structured JSON Output: The LLM processes the text and extracts only table data, returning a well-structured JSON format with clearly defined headers and rows.
-Excel Conversion: The JSON output is efficiently converted into an Excel file using pandas and openpyxl, preserving tabular data for easy analysis.
+-Extracting Text: The script uses PyPDF2 to extract text from the PDF file, ensuring all content is retrieved accurately.
+-Processing with LLM: The extracted text is sent to a Large Language Model (LLM) via the Groq API, providing context for structured extraction.
+-Structured JSON Output: The LLM processes the text and extracts only table data, returning a well-structured JSON format with clearly defined headers and rows.
+-Excel Conversion: The JSON output is efficiently converted into an Excel file using pandas and openpyxl, preserving tabular data for easy analysis.
 
 
 ---
